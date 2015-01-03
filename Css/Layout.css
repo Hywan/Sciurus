@@ -39,3 +39,24 @@ main {
     border-left-width: 1px;
     background: rgb(227, 231, 233);
 }
+
+#view_main > main > #chart {
+    display: block;
+    height: 250px;
+    background: violet;
+}
+
+#view_main > main > #operations {
+    display: flex;
+    flex-flow: row;
+    height: calc(100% - 250px);
+}
+
+#view_main > main > #operations > * {
+    flex: 5;
+}
+
+#view_main > main > #operations > details {
+    flex: 2;
+    background: orange;
+}
