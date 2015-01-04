@@ -1,0 +1,7 @@
+:lang(en) form label:after {
+    content: ':';
+}
+
+:lang(fr) form label:after {
+    content: ' :';
+}

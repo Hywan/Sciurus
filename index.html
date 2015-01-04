@@ -2,17 +2,21 @@
 <html>
 
 <head>
-  <title>Comptabilité</title>
+  <title data-l10n-id="branding_name">Branding name</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="content-type" content="text/javascript; charset=utf-8" />
   <meta http-equiv="content-type" content="text/css; charset=utf-8" />
   <meta name="viewport" content="initial-scale=1.0" />
 
-  <link type="text/css" href="Css/Layout.css" rel="stylesheet" />
-  <link type="text/css" href="Css/UI.css" rel="stylesheet" />
-  <link type="text/css" href="Css/External/C3.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Css/Layout.css"      type="text/css" />
+  <link rel="stylesheet" href="Css/UI.css"          type="text/css" />
+  <link rel="stylesheet" href="Css/Locales.css"     type="text/css" />
+  <link rel="stylesheet" href="Css/External/C3.css" type="text/css" />
+
+  <link rel="localization" href="Locales/Manifest.json" />
 
   <script src="Javascript/External/Hoa.js"></script>
+  <script src="Javascript/External/L20n.js"></script>
   <script src="Javascript/External/D3.js"></script>
   <script src="Javascript/External/C3.js"></script>
 </head>
@@ -29,9 +33,9 @@
           <table class="scrollable three-columns">
             <thead>
               <tr>
-                <th>Description</th>
-                <th>Amount</th>
-                <th>Tags</th>
+                <th data-l10n-id="label">Label</th>
+                <th data-l10n-id="amount">Amount</th>
+                <th data-l10n-id="tags">Tags</th>
               </tr>
             </thead>
             <tbody>
@@ -199,13 +203,13 @@
           </table>
         </div>
         <details>
-          <summary>Operations</summary>
+          <summary data-l10n-id="operation_details">Operation details</summary>
 
           <form>
-            <label for="details_name">Name:</label>
+            <label for="details_name" data-l10n-id="name">name</label>
             <input type="text" id="details_name" />
 
-            <label for="details_date">Date:</label>
+            <label for="details_date" data-l10n-id="date">date</label>
             <input type="date" id="details_date" />
           </form>
         </details>

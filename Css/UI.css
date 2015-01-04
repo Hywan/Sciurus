@@ -8,6 +8,10 @@ th {
     text-align: left;
 }
 
+    th::first-letter {
+        text-transform: uppercase;
+    }
+
 tr:nth-child(2n+1) {
     background: rgb(235, 197, 170);
 }
@@ -80,3 +84,7 @@ form {
     form label {
         text-align: right;
     }
+
+        form label::first-letter {
+            text-transform: uppercase;
+        }
