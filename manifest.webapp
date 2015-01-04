@@ -8,17 +8,7 @@
         "name": "Ivan Enderlin",
         "url" : "http://mnt.io/"
     },
-    "permissions": {
-        "browser"             : {},
-        "embed-apps"          : {},
-        "systemXHR"           : {},
-        "settings"            : {"access": "readwrite"},
-        "geolocation"         : {},
-        "storage"             : {},
-        "desktop-notification": {},
-        "audio-capture"       : {},
-        "video-capture"       : {}
-    },
+    "permissions": {},
     "icons": {
         "128": "/Image/Application_128.png"
     }
